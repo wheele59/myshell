@@ -1,0 +1,48 @@
+[pid=37647] cmd="valgrind --leak-check=full --track-origins=yes ./myshell
+" status=1
+[pid=37711] cmd="ls
+" status=0
+[pid=37721] cmd="pwd
+" status=0
+[pid=37724] cmd="sleep 2
+" status=0
+[pid=37729] cmd="cat src/parse.c
+" status=0
+[pid=37819] cmd="nano src/main.c
+" status=0
+[pid=37893] cmd="make
+" status=0
+[pid=37900] cmd="./myshell
+" status=0
+[pid=38294] cmd="myshell>            ← press Enter
+" status=1
+[pid=38295] cmd="myshell>            ← press Enter again
+" status=1
+[pid=38296] cmd="myshell> ls
+" status=1
+[pid=38297] cmd="myshell> pwd
+" status=1
+[pid=38298] cmd="myshell> sleep 2
+" status=1
+[pid=38299] cmd="myshell> sleep 2 &
+" status=-1
+[pid=38301] cmd="myshell> ls | wc
+" status=0
+[pid=38302] cmd="myshell> exit
+" status=1
+[pid=38414] cmd="ls
+" status=0
+[pid=38419] cmd="pwd
+" status=0
+[pid=38421] cmd="sleep 2
+" status=0
+[pid=38432] cmd="sleep 2 &
+" status=-1
+[pid=38440] cmd="ls | wc
+" status=-1
+[pid=39908] cmd="ls
+" status=0
+[pid=39909] cmd="sleep 1
+" status=0
+[pid=39924] cmd="ls | wc
+" status=0
